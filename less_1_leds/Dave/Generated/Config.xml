@@ -46,6 +46,16 @@
                 <Path>\Dave\Generated\DIGITAL_IO\digital_io_conf.c</Path>
                 <Type>C File</Type>
             </Source_File>
+            <Source_File>
+                <File_Name>systimer.c</File_Name>
+                <Path>\Dave\Generated\SYSTIMER\systimer.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>systimer_conf.c</File_Name>
+                <Path>\Dave\Generated\SYSTIMER\systimer_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
         </Source_Files>
         <Header_Files>
             <Header_File>
@@ -101,6 +111,21 @@
             <Header_File>
                 <File_Name>digital_io_extern.h</File_Name>
                 <Path>\Dave\Generated\DIGITAL_IO\digital_io_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>systimer.h</File_Name>
+                <Path>\Dave\Generated\SYSTIMER\systimer.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>systimer_conf.h</File_Name>
+                <Path>\Dave\Generated\SYSTIMER\systimer_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>systimer_extern.h</File_Name>
+                <Path>\Dave\Generated\SYSTIMER\systimer_extern.h</Path>
                 <Type>H File</Type>
             </Header_File>
         </Header_Files>

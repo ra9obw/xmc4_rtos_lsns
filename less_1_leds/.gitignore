@@ -1,0 +1,8 @@
+Libraries/CMSIS
+Libraries/XMCLib
+Libraries/Newlib
+.settings
+Dave/Model
+Release
+Debug
+*.bak

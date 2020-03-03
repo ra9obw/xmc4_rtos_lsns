@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project MotherSystem_Version="" Name="less_1_leds" Path="D:\DAVE-IDE-4.4.2-64Bit\DAVE-IDE-4.4.2-64Bit\xmc4_workshop\less_1_leds">
+<Project MotherSystem_Version="" Name="less_1_leds" Path="D:\DAVEv4-64Bit\xmc4_rtos_lsns\less_1_leds">
     <COMPILER>
         <Name>ARM_GCC_HOME</Name>
         <Version/>
@@ -12,12 +12,72 @@
     <Generated_Files>
         <Source_Files>
             <Source_File>
+                <File_Name>clock_xmc4.c</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>clock_xmc4_conf.c</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>cpu_ctrl_xmc4.c</File_Name>
+                <Path>\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>cpu_ctrl_xmc4_conf.c</File_Name>
+                <Path>\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
                 <File_Name>DAVE.c</File_Name>
                 <Path>\Dave\Generated\DAVE.c</Path>
                 <Type>C File</Type>
             </Source_File>
+            <Source_File>
+                <File_Name>digital_io.c</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>digital_io_conf.c</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
         </Source_Files>
         <Header_Files>
+            <Header_File>
+                <File_Name>clock_xmc4.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>clock_xmc4_conf.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>clock_xmc4_extern.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>cpu_ctrl_xmc4.h</File_Name>
+                <Path>\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>cpu_ctrl_xmc4_conf.h</File_Name>
+                <Path>\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>cpu_ctrl_xmc4_extern.h</File_Name>
+                <Path>\Dave\Generated\CPU_CTRL_XMC4\cpu_ctrl_xmc4_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
             <Header_File>
                 <File_Name>DAVE.h</File_Name>
                 <Path>\Dave\Generated\DAVE.h</Path>
@@ -26,6 +86,21 @@
             <Header_File>
                 <File_Name>DAVE_Common.h</File_Name>
                 <Path>\Dave\Generated\DAVE_Common.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io_conf.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io_extern.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_extern.h</Path>
                 <Type>H File</Type>
             </Header_File>
         </Header_Files>

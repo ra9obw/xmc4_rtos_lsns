@@ -20,6 +20,18 @@
  * code.
  */
 
+void my_usleep(uint32_t dly)
+{
+	//scaling factor
+	dly *= 12;
+//	dly /= 10;
+	//
+	for(; dly > 0; --dly)
+	{
+		__NOP();
+	}
+}
+
 int main(void)
 {
   DAVE_STATUS_t status;
@@ -40,6 +52,10 @@ int main(void)
   /* Placeholder for user application code. The while loop below can be replaced with user application code. */
   while(1U)
   {
-
+	  my_usleep(500000);
+	  DIGITAL_IO_ToggleOutput(&LED_0);
+	  my_usleep(500000);
+	  DIGITAL_IO_ToggleOutput(&LED_0);
+	  DIGITAL_IO_ToggleOutput(&LED_1);
   }
 }
